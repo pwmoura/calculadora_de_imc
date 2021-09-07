@@ -1,2 +1,2 @@
-# calculadora_de_imc
+# Calculadora de IMC
 Uma calculadora de IMC, utilizando alguns conceitos de cálculos e conversões.
