@@ -1,0 +1,117 @@
+/*
+    # Fonte Google: Bebas Neue
+    ---------------------------
+    font-family: 'Bebas Neue', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin: auto;
+    width: 400px;
+    min-width: 350px;
+    background-color: #00A3D9;
+    padding: 1.2em;
+}
+#tela{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00A3D9;
+    font-size: 3em;
+}
+header{
+    width: 100%;
+    margin: auto;
+    padding: 0,5em;
+}
+header h1{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding: 0.3em;
+    margin: 0.3em;
+    font-weight:normal;
+    font-style: normal;
+}
+.campo_de_texto{
+    background-color: #00A3D9;
+    border: 3px solid white;
+    padding: 15px;
+    width: 49%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.campo_de_texto::placeholder{
+    color: white;
+}
+#campos{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#controles{
+    width: 100%;
+    margin: auto;
+}
+.bt-1{
+    background-color: white;
+    color: #00A3D9;
+    padding: 10px;
+    font-size:1.5em;
+    width: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    border: 0px;
+    cursor: pointer;
+}
+#box-retorno{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+#box-retorno h2{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+}
+#box-retorno p{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2em;
+    font-weight: normal;
+    font-style: normal;
+}
+footer{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
